@@ -8,7 +8,6 @@ const TodoForm = () => {
     const [text, setText] = useState('');
     const dispatch = useDispatch();
 
-    // axios.defaults.withCredentials = true;
 
     const onFormSubmit = (e) => {
         e.preventDefault();
