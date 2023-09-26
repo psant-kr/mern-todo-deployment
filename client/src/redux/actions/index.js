@@ -7,21 +7,7 @@ const API_URL = 'https://mern-todo-deployment-api.vercel.app';
 
 // axios.defaults.withCredentials = true;
 
-// {
-//     "version": 2,
-//     "builds": [
-//         {
-//             "src": "*.js",
-//             "use": "@vercel/node"
-//         }
-//     ],
-//     "routes": [
-//         {
-//             "src": "/(.*)",
-//             "dest": "/"
-//         }
-//     ]
-// }
+
 
 // {
 //     "headers": [
