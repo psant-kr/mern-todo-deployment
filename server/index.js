@@ -8,11 +8,11 @@ import Routes from './routes/route.js';
 const app = express();
 
 app.use(cors(
-    {
-        origin: ["https://mern-todo-deployment-frontend.vercel.app"],
-        methods: ["POST", "GET"],
-        credentials: true,
-    }
+    // {
+    //     origin: ["https://mern-todo-deployment-frontend.vercel.app"],
+    //     methods: ["POST", "GET"],
+    //     credentials: true,
+    // }
 ));
 
 app.use(bodyParser.json({ extended: true }));
