@@ -5,7 +5,7 @@ import { ADDNEW_TODO } from './type';
 // const API_URL = 'http://localhost:8000';
 const API_URL = 'https://mern-todo-deployment-api.vercel.app';
 
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 
 // {
 //     "version": 2,
