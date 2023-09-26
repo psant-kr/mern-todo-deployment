@@ -12,7 +12,6 @@ app.use(cors(
         origin: ["https://mern-todo-deployment-frontend.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true,
-        optionsSuccessStatus: 200
     }
 ));
 
