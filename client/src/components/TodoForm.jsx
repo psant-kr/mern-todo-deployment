@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addNewTodo } from '../redux/actions';
+import axios from 'axios';
 
 const TodoForm = () => {
     // eslint-disable-next-line
     const [text, setText] = useState('');
     const dispatch = useDispatch();
+
+    axios.defaults.withCredentials = true;
 
     const onFormSubmit = (e) => {
         e.preventDefault();
